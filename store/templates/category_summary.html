@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- Header-->
+
+<div style="background-image: url('/media/uploads/product/cart_ban.webp'); height: 350px; text-align: center;">
+    <h1 class="display-4 fw-bolder" style="color: white; padding-top: 100px;">Categories</h1>
+    <p class="lead fw-normal text-white-50 mb-0">Choose Your Category Below...</p>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <center>
+            <div class="col-8">
+                <br /><br />
+
+                {% for category in categories %}
+                <h3><a href="{% url 'category' category %}">{{ category }}</a></h3>
+
+                {% endfor %}
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </div>
+        </center>
+    </div>
+</div>
+
+{% endblock %}

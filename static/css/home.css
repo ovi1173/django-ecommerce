@@ -1,0 +1,12 @@
+.banner{
+   
+    height: 350px;
+    width: 1150px;
+    margin-left: 80px;
+    border-radius: 24px;
+    margin-top: 10px;
+}
+
+.ven{
+    color: red;
+}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- Header-->
+<div style="background-color: orangered; text-align: center; padding-bottom: 50px;">
+    <h1 class="display-4 fw-bolder" style="color: white; padding-top: 100px;">Register</h1>
+    <p class="lead fw-normal text-white-50 mb-0">Register for a User Account...</p>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6 offset-md-3">
+
+            <br /><br />
+            <form class="reg" method="POST" action="{% url 'register' %}">
+                {% csrf_token %}
+
+                {{ form.as_p }}
+                <br /><br />
+                <button type="submit" class="button">
+                    Register
+                </button>
+
+            </form>
+
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+            <br /><br />
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

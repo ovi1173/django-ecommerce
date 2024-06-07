@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.links{
+    gap: 15px;
+    margin-left: 10px;
+}
+.my{
+   font-size: 36px;
+   font-weight: 800;
+   color: orange;
+   text-decoration: none;
+}
+.ecom{
+   color:orangered;
+   font-size: 48px;
+}
+.m{
+    font-size: 48px;
+    color: chocolate;
+}
+.img{
+    width: 24px;
+}

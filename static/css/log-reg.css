@@ -1,0 +1,40 @@
+/* log in styles */
+.form{
+    background-color:wheat;
+    width: 450px;
+    padding: 45px;
+    border-radius: 18px;
+    
+}
+.button{
+    background-color: rgb(91, 77, 169);
+    padding: 10px 30px;
+    color: white;
+    font-size: larger;
+    border-radius: 18px;
+    border: none;
+}
+
+.input{
+    border-radius: 16px;
+    border: none;
+    width: 350px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/* register related styles */
+.reg{
+    background-color: wheat;
+    padding: 20px 30px;
+    border-radius: 18px;
+}
+.cart{
+    background-color: blue;
+}
+.cat{
+    background-color: blue;
+}
+.bg-image{
+   background-image: url("/media/uploads/product/cart_ban.webp");
+}
